@@ -1,4 +1,3 @@
-<a href="https://zdravkald.github.io/painting-services/"> # painting-services </a>
-<br>
-painting-services: demo page
+<a href="https://zdravkald.github.io/painting-services/"> # painting-services demo page </a>
+
 
