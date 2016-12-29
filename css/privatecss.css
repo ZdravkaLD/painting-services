@@ -1,0 +1,136 @@
+/* style sheet file*/
+/* 
+Colour palette 
+#011A27 (dark navy)
+#063852 (blueberry)
+#F0810F (tangarine)
+#E6DF44 (daffodil) */
+
+/* margin: 100px 0px 100px 0cm; 
+   margin: TOP RIGHT BOTTOM LEFT*/
+   
+/* margin: 0px 50px;
+top and bottom margins are 0px
+right and left margins are 50px */
+
+body {
+	position: relative;
+	top: 50px;
+	line-height: 2;
+	/*display: block;*/
+	/*margin-left: auto;
+    margin-right: auto;*/
+    /*width: 5;*/
+	font-size: 16px;
+}
+
+#interior-painting, #exterior-painting, #contact-us, #FAQ {
+padding: 70px 0px 0px 0px;
+}
+
+
+H1,H2 {
+	color: #063852 ;
+}
+
+p{
+	color: #011A27;
+}
+
+hr {
+	color: #011A27;
+}
+
+/* .navbar-header{
+	color: #F0810F;
+} */
+
+.page-header{
+	margin:100px 0px 0px 0px;
+}
+	
+.jumbotron {
+	margin: 50px 0px 20px 0cm ;
+	/* background-image: url(../images/house.jpg); */
+	background-size: cover;
+	background-color: #063852;
+}
+.jumbotron h1 { color: #F0810F; }
+.jumbotron p { 
+	color: #E6DF44;
+	font-size: 36px;
+	font-weight: 400;
+	}
+
+.breadcrumb {
+  padding: 0px 15px; /* top & bottom=0, left & right = 15 */
+  margin-bottom: 0px;
+  background-color: transparent;
+}
+
+/* breadcrumb seperator */
+.breadcrumb > li + li:before {
+  content: "/\00a0";
+  padding: 0 5px;
+  color: #063852;
+} 
+
+.breadcrumb > .active {
+  color: #F0810F  ;
+}
+
+
+a {
+  color: #063852;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #F0810F;
+  text-decoration: underline;
+}
+
+.h1-styled {
+	 font-family: 'Fredericka the Great', cursive;
+}
+
+/* optional fonts
+font-family: 'Cabin Sketch', cursive; 
+font-family: 'Tangerine', serif;
+*/
+
+.btn-default{
+	background-color: transparent; 
+	color: #063852
+}
+.btn-default:hover{
+	color: #063852 ;
+	background-color: #F0810F ;
+	font-weight: bold;}
+
+
+.btn-block{
+	width:50%;
+	position: middle;
+}
+
+/* removes bullets before list items */
+.custom-bullet li {
+    display: block;
+}
+
+
+/* .part3 {
+background-image: url("../images/house.jpg")	
+} */
+
+.panel-footer {
+	font-size: 14px;
+	text-align: center;
+	color: #011A27;
+}
+
+.panel-styled>img {
+    height: 30px;
+	padding: 0px 5px;
+}
